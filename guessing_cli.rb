@@ -1,6 +1,6 @@
 def run_guessing_game
     user_guess = ""
-    while input
+    while user_guess
       puts "Guess a number between 1 and 6."
       user_guess = gets.chomp.to_i
       number = rand(1..6)
